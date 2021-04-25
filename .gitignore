@@ -1,5 +1,5 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
+*__pycache__/
 *.py[cod]
 *$py.class
 
@@ -9,7 +9,6 @@ __pycache__/
 # Distribution / packaging
 .Python
 .idea
-build/
 develop-eggs/
 dist/
 downloads/
@@ -69,9 +68,6 @@ instance/
 # Scrapy stuff:
 .scrapy
 
-# Sphinx documentation
-docs/_build/
-
 # PyBuilder
 target/
 
@@ -128,3 +124,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+!/src/.mypy_cache/
+!/src/.pytest_cache/
+!/src/.coverage
+!/src/__pycache__/
+!/src/.coverage
+/src/sandbox.py
